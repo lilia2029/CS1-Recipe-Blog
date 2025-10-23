@@ -40,3 +40,8 @@ ol{
 img{
     border: 7px dotted rgb(234, 105, 127);
 }
+ul{
+    background:pink;
+    padding: 20px;
+    margin: 20px;
+}
