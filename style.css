@@ -25,9 +25,9 @@ h3{
     color:rgb(113, 167, 158);
 }
 .recipe-section{
-border: 15px dashed rgb(230, 131, 148);
+border: 15px dashed rgb(219, 128, 143);
 padding:20px;
-margin:20px 0;
+margin:20px 10%;
 background: rgb(247, 195, 138);
 border-radius: 10%
 }
@@ -35,18 +35,25 @@ a{
     color:rgb(180, 87, 230);
     text-decoration:double;
     font-weight: bold;
+    background:linear-gradient(to top, #ed80a2 0%, rgb(224, 176, 176) 100%);
+    border: 2px solid;
+    padding: 5px;
+    margin: 3px;
 }
 
 ol{
     padding:20px;
     margin:20px;
-    background: rgb(195, 195, 237);
+    background: rgb(213, 213, 243);
+    text-align:left;
 }
 img{
     border: 7px dotted rgb(234, 105, 127);
     margin: 10px;
+    border-radius:20%;
 }
 ul{
+    list-style-type:none;
     background:pink;
     padding: 20px;
     margin: 20px;
@@ -57,5 +64,5 @@ ul{
     margin: auto;
 }
 p{
-    background:rgb(241, 148, 164);
+    background:rgb(235, 160, 173);
 }
