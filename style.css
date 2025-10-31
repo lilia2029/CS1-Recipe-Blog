@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lavishly+Yours&family=Mansalva&family=Shadows+Into+Light&family=Sue+Ellen+Francisco&family=Sunshiney&display=swap');
 
 body{
-    background: #c3c3ed;
+background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(255, 128, 0, 0.235) 64.6%);
+;
+;
     color: rgb(168, 108, 232);
     font-family:"Sue Ellen Francisco", cursive;
     text-align:center;
@@ -21,7 +23,7 @@ h2{
 }
 h3{
     font-weight: 50px;
-    font-size:30px;
+    font-size:45px;
     font-family: "Ephesis", cursive;
     color:rgb(113, 167, 158);
 }
@@ -30,7 +32,9 @@ border: 15px dashed rgb(219, 128, 143);
 padding:20px;
 margin:20px 10%;
 background: rgb(247, 195, 138);
-border-radius: 10%
+border-radius: 10%;
+box-shadow:-11px -9px 11px 0px #858282;
+
 }
 a{
     color:rgb(180, 87, 230);
@@ -41,9 +45,20 @@ a{
     padding: 5px;
     margin: 3px;
     display:inline-block;
+    box-shadow: -1px 3px 8px 0px #b343e7;
 
 }
+a:hover{
+    color:rgb(209, 171, 235);
+    text-decoration:double;
+    font-weight: bold;
+    background:linear-gradient(to top, #e30a4f 0%, rgb(132, 187, 195) 100%);
+    border: 2px solid;
+    padding: 5px;
+    margin: 3px;
+    display:inline-block;
 
+}
 ol{
     padding:20px;
     margin:20px;
@@ -107,5 +122,6 @@ p{
 #logo{
     padding:0px;
     border:transparent;
-    margin:-100px;
+    margin:-100px
+
 }
