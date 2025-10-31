@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lavishly+Yours&family=Mansalva&family=Shadows+Into+Light&family=Sue+Ellen+Francisco&family=Sunshiney&display=swap');
+
 body{
     background: #c3c3ed;
     color: rgb(168, 108, 232);
     font-family:"Sue Ellen Francisco", cursive;
     text-align:center;
-    font-size:20px;
+    font-size:30px;
 }
 h1{
     color:#ff4665;
     text-align:center;
-    font-size:50px;
+    font-size:70px;
     font-family:"Lavishly Yours", cursive;
 }
 h2{
     color:rgb(113, 167, 158);
-    font-size:35px;
+    font-size: 45px;
     font-family: "Ephesis", cursive;
     text-align: center;
 }
@@ -56,9 +57,10 @@ img{
 }
 ul{
     list-style-type:none;
-    background:pink;
+    background:rgb(251, 249, 198);
     padding: 20px;
     margin: 20px;
+    border-radius:10%
     
 }
 .center{
@@ -66,21 +68,23 @@ ul{
     margin: auto;
 }
 p{
-    background:rgb(235, 160, 173);
+    background:rgb(255, 212, 217);
+    border-radius: 10%;
 }
 #recipe1{
     border:20px dashed rgb(244, 220, 142);
-    
+   
    
 }
 #ol1{
-    background: rgb(249, 180, 204);
+    background: rgb(243, 199, 214);
+    border-radius: 5%;
 }
 #recipe2{
-   background: pink; 
+   background: rgb(244, 206, 212); 
 }
 #ul2{
-    background:#c7b3db;
+    background:#d8bdea;
 }
 #p2{
     background:#c4e5fd;
@@ -91,11 +95,17 @@ p{
     background:#ccdde8
 }
 #p3{
-    background:rgb(223, 151, 223);
-}
-#ul3{
     background:#b3dbc6;
 }
+#ul3{
+    background: #f8bef8;
+}
 #ol3{
-    background:#ecc4f5;
+    background:#cffbe9;
+    border-radius:5%
+}
+#logo{
+    padding:0px;
+    border:transparent;
+    margin:-100px;
 }
